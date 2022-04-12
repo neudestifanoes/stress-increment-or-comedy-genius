@@ -1,0 +1,167 @@
+body{
+	background-image: url(https://media2.giphy.com/media/h2TUoMEPOdS7r0xPpZ/giphy.gif?cid=ecf05e47pf8iia536o5tjef52wi7lxcq8f52otdc7c0900wg&rid=giphy.gif&ct=g);
+}
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #7fffd4;
+}
+
+.robots:hover {
+	transform: rotate3d(1, 2, 2, 20deg);
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #7fffd4;
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+	position: relative;
+	right: 10px;
+} 
+
+
+.eyes {
+	
+	
+}
+
+.head:hover {
+	width: 300px;
+    transition: ease in out 1s;
+}
+
+.upper_body { 
+	width: 400px; 
+	height: 150px;
+	display: flex; 
+	position: relative;
+	left: 474px;
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+	transform: rotate3d(2, -1, -1, -0.2turn);
+} 
+
+.left_arm:hover { 
+	margin-right: 10px; 
+	transform: scale(1.4);
+	transition: 1s;
+} 
+
+.right_arm:hover { 
+	margin-left: 10px; 
+	transform: scale(1.4);
+	transition: 1s;
+} 
+
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+	
+} 
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(3600deg);
+    transition: 10s; 
+}
+
+.right_leg { 
+	margin-left: 120px;
+	margin-top: -120px;
+	
+}
+
+.right_leg:hover{
+	-webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(3600deg);
+    transition: 10s; 
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white;  
+} 
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 72px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 56px; 
+	left: 120px; 
+}
+.brows{
+	background-color: black;
+	width: 70px;
+	height: 10px;
+	position: relative;
+	top: 40px;
+	left: 58px;
+}
+
+p{
+	color: black;
+	text-align: center;
+}
+p:hover{
+	color: #c9aa88;
+	/*size: 400px;**/
+	transform: scale(2.3);
+	transition:1.2s ;
+
+}
+/*h2{
+	size: 4000px;
+	color: white;
+	position: relative;
+	bottom: 800px;
+	right: 1000px;
+}*/
+
